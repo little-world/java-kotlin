@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "type": "single",
+    "text": "that the next question",
+    "code": "hello, world",
+    "answers": [
+      {
+        "id": 1,
+        "text": "first answer",
+        "valid": true
+      },
+      {
+        "id": 2,
+        "text": "second answer",
+        "valid": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "multi",
+    "text": "that the question",
+    "code": "hello, world",
+    "answers": [
+      {
+        "id": 1,
+        "text": "first answer",
+        "valid": true
+      },
+      {
+        "id": 2,
+        "text": "second answer",
+        "valid": false
+      },
+      {
+        "id": 3,
+        "text": "third answer",
+        "valid": false
+      },
+      {
+        "id": 4,
+        "text": "fourth answer",
+        "valid": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "drag",
+    "text": "that the question",
+    "code": "hello, $world",
+    "answers": [{
+      "id": 1,
+      "text": "first answer",
+      "valid": true
+    }]
+  },
+  {
+    "id": 4,
+    "type": "edit",
+    "text": "that the question",
+    "code": "hello, $world",
+    "answers": [{
+      "id": 1,
+      "text": "first answer",
+      "valid": true
+    }]
+  }
+]
