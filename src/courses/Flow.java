@@ -25,7 +25,8 @@ if (x < 3)
 else
     size = "big";
 
-String y = x < 3 ? "small" : "big";
+String y = x < 3 ? "small"
+                 : "big";
 
 }
 

@@ -7,7 +7,8 @@ var x = 3
 if x is smaller then 3 print 'small'
 */
 fun if_example() {
-if (x < 3) println("small")
+if (x < 3)
+    println("small")
 }
 
 /* if else
@@ -16,8 +17,15 @@ else print 'big'
 */
 fun if_else() {
 var size = ""
-size = if (x < 3) "small" else "big"
-val y = if (x < 3) "small" else "big"
+size = if (x < 3)
+    "small"
+  else
+    "big"
+
+val y = if (x < 3)
+    "small"
+  else
+    "big"
 }
 
 /* switch
