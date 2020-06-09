@@ -1,5 +1,6 @@
 package courses;
 
+import java.sql.ClientInfoStatus;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -7,51 +8,66 @@ import java.util.List;
 public class Array {
 
 
-    void array() {
-        int[] seq = new int[2];
-        seq[0] = 1;
-        seq[1] = 2;
-        int y = seq[0];  //1
-        /// an empty array
-    } //
+/* array
+an empty array
+*/
+void array() {
+int[] seq = new int[2];
+
+seq[0] = 1;
+seq[1] = 2;
+
+int y = seq[0];  //1
+
+}
 
 
-    void array2() {
-        int[] seq = {1,2,3,4};
-        int y = seq[0];  //1
-        seq[1] = 4;
-        /// an array with values
-    } //
+/* array
+an array with values
+*/
+void array2() {
+int[] seq = {1,2,3,4};
 
-    void array_loop() {
-        int[] seq = {1,2,3,4};
+int y = seq[0];  //1
 
-        for (int i = 0; i < seq.length; i++) {
-            System.out.print(seq[i]);
-        }
+seq[1] = 4;
+}
 
-        for (int x: seq) {
-            System.out.print(x);
-        }
-        /// print: 1234
-    } //
+/* array loop
+print 1234
+*/
+void array_loop() {
+int[] seq = {1,2,3,4};
 
-    void array_list() {
-        List<Integer> list = new ArrayList<>();
-        list.add(1);
-        list.add(2);
+for (int i = 0; i < seq.length; i++) {
+    System.out.print(seq[i]);
+}
 
-        int y = list.get(0); //1
-        /// an empty List
-    } //
+for (int x: seq) {
+    System.out.print(x);
+}
+}
 
+/* array list
+an empty Lists
+*/
+void array_list() {
+List<Integer> list = new ArrayList<>();
 
-    void array_list2() {
-        List<Integer> list = Arrays.asList(1,2,3,4);
+list.add(1);
+list.add(2);
 
-        for (int x: list) {
-            System.out.println(x);
-        }
-        /// a List with values
-    } //
+int y = list.get(0); //1
+}
+
+/* array list
+a List with values
+*/
+void array_list2() {
+List<Integer> list = Arrays.asList(1,2,3,4);
+
+for (int x: list) {
+    System.out.println(x);
+}
+}
 }

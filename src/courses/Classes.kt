@@ -4,90 +4,102 @@ import java.awt.Color
 import java.awt.Point
 
 class Classes {
-    fun point_class() {
-        class Point {
-            var x = 0
-            var y = 0
-            fun move(a: Int, b: Int) {
-                x += a
-                y += b
-            }
-        }
+/* class
+A class with fields and method
+*/
+fun point_class() {
+class Point {
+    var x = 0
+    var y = 0
+    fun move(a: Int, b: Int) {
+        x += a
+        y += b
+    }
+}
 
-        val p = Point()
-        p.move(3, 3)
-        /// a class with fields and method
-    } //
+val p = Point()
+p.move(3, 3)
+}
 
-    fun inheritance() {
-        class Pixel : Point() {
-            var color = Color.black
-        }
+/* inheritance
+A Pixel is a Point with color
+*/
+fun inheritance() {
+class Pixel : Point() {
+    var color = Color.black
+}
+val p = Pixel()
+p.move(3, 3)
+p.color = Color.red
+}
 
-        val p = Pixel()
-        p.move(3, 3)
-        p.color = Color.red
-        /// A Pixel is a Point with color
-    } //
+/* constructor
+A constructor in a init function
+*/
+fun constructor() {
+class Point(var x: Int, var y: Int)
 
-    fun constructor() {
-        class Point(var x: Int, var y: Int)
+val p = Point(2, 2)
+}
 
-        val p = Point(2, 2)
-        /// a constructor in a init function
-    } //
+/* getters and setters
 
-    fun getters_and_setters() {
-        class Point {
-            var x = 0
-            var y = 0
+*/
+fun getters_and_setters() {
+class Point {
+    var x = 0
+    var y = 0
+}
+}
 
-        }
-        // getters and setters
-    } //
+/* access modifiers
+public, protected, package, private
+*/
+fun access() {
+class Point {
+    private val a = 0
+    protected var b = 0
+    var c = 0
+    var d = 0
+}
+}
 
-    fun access() {
-        class Point {
-            private val a = 0
-            protected var b = 0
-            var c = 0
-            var d = 0
-        }
-        /// public, protected, package, private
-    } //
+/* override
+an Oval is a Shape
+*/
+fun override_example() {
+open class Shape {
+    open fun draw() {}
+}
 
-    fun override_example() {
-        open class Shape {
-            open fun draw() {}
-        }
+class Oval : Shape() {
+    override fun draw() {}
+}
+}
 
-        class Oval : Shape() {
-            override fun draw() {}
-        }
-        /// an Oval is a Shape
-    } //
+/* abstract class
+Shape is abstract
+*/
+fun abstract_example() {
+abstract class Shape {
+    abstract fun draw()
+}
 
-    fun abstract_example() {
-        abstract class Shape {
-            abstract fun draw()
-        }
+class Oval : Shape() {
+    override fun draw() {}
+}
+}
 
-        class Oval : Shape() {
-            override fun draw() {}
-        }
-        /// Shape is abstract
-    } //
+/* interface
+implements an interface
+*/
+fun interface_example() {
+internal interface Drawable {
+    fun draw()
+}
 
-
-    fun interface_example() {
-        internal interface Drawable {
-            fun draw()
-        }
-
-        class Oval : Drawable {
-            override fun draw() {}
-        }
-        /// implements an interface
-    } //
-
+class Oval : Drawable {
+    override fun draw() {}
+}
+}
 }

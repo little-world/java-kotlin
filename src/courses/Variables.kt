@@ -1,8 +1,7 @@
 package courses
 
 class Variables {
-/// variables
-/*
+/* variables
 declare x and y as an int
 plus and print
 */
@@ -13,8 +12,7 @@ fun variables() {
     println(y)
 }
 
-/// constants
-/*
+/* constants
 declares x as a constant
 */
 fun constant() {
@@ -23,8 +21,7 @@ fun constant() {
     y = x + 3
 }
 
-/// types
-/*
+/* types
 other primitive types
 String is a class
 */
@@ -35,8 +32,7 @@ fun types() {
     val s = "hello"
 }
 
-/// type cast
-/*
+/* type cast
 int to double implicit cast
 double to an int explicit cast
 */
@@ -46,8 +42,7 @@ fun typecast() {
     val y = d.toInt()
 }
 
-/// operators
-/*
+/* operators
 basic math operators
 */
 fun operators() {

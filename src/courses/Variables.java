@@ -2,8 +2,7 @@ package courses;
 
 public class Variables {
 
-/// variables
-/*
+/* variables
 declare x and y as an int
 plus and print
 */
@@ -13,8 +12,7 @@ void variables() {
     System.out.println(y);
 }
 
-/// constants
-/*
+/* constants
 declares x as a constant
 */
 void constant() {
@@ -23,8 +21,7 @@ void constant() {
     y = x + 3;
 }
 
-/// types
-/*
+/* types
 other primitive types
 String is a class
 */
@@ -35,8 +32,7 @@ void types() {
     String s = "hello";
 }
 
-/// type cast
-/*
+/* type cast
 int to double implicit cast
 double to an int explicit cast
 */
@@ -47,8 +43,7 @@ void typecast() {
 
 }
 
-/// operators
-/*
+/* operators
 basic math operators
 */
 void operators() {
