@@ -37,9 +37,10 @@ p.color = Color.red
 A constructor in a init function
 */
 fun constructor() {
-class Point(var x: Int, var y: Int)
+class Point(x: Int,y: Int)
 
 val p = Point(2, 2)
+
 }
 
 /* getters and setters
@@ -59,7 +60,7 @@ fun access() {
 class Point {
     private val a = 0
     protected var b = 0
-    var c = 0
+    internal var c = 0
     var d = 0
 }
 }

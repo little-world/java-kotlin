@@ -19,7 +19,7 @@ val y = seq[0] //1
 an array with values
 */
 fun array2() {
-val seq = intArrayOf(1, 2, 3, 4)
+val seq = intArrayOf(1, 2, 3)
 
 val y = seq[0] //1
 
@@ -30,7 +30,7 @@ seq[1] = 4
 print 1234
 */
 fun array_loop() {
-val seq = intArrayOf(1, 2, 3, 4)
+val seq = intArrayOf(1, 2, 3)
 
 for (i in seq.indices) {
     print(seq[i])
@@ -47,7 +47,7 @@ fun array_list() {
 val list: MutableList<Int> = ArrayList()
 
 list.add(1)
-list.add(2)
+list += 2
 
 val y = list[0] //1
 }
@@ -56,7 +56,7 @@ val y = list[0] //1
 a List with values
 */
 fun array_list2() {
-val list = Arrays.asList(1, 2, 3, 4)
+val list = arrayListOf(1, 2, 3)
 
 for (x in list) {
     println(x)

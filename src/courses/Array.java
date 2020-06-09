@@ -26,7 +26,7 @@ int y = seq[0];  //1
 an array with values
 */
 void array2() {
-int[] seq = {1,2,3,4};
+int[] seq = {1,2,3};
 
 int y = seq[0];  //1
 
@@ -37,7 +37,7 @@ seq[1] = 4;
 print 1234
 */
 void array_loop() {
-int[] seq = {1,2,3,4};
+int[] seq = {1,2,3};
 
 for (int i = 0; i < seq.length; i++) {
     System.out.print(seq[i]);
@@ -64,7 +64,7 @@ int y = list.get(0); //1
 a List with values
 */
 void array_list2() {
-List<Integer> list = Arrays.asList(1,2,3,4);
+List<Integer> list = Arrays.asList(1,2,3);
 
 for (int x: list) {
     System.out.println(x);

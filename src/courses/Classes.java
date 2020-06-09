@@ -12,7 +12,8 @@ void point_class() {
 class Point {
     int x, y;
     void move(int a, int b) {
-        x +=a; y+= b;
+        x +=a;
+        y+= b;
     }
 }
 Point p = new Point();
@@ -107,6 +108,7 @@ void interface_example() {
 interface Drawable {
     void draw();
 }
+
 class Oval implements Drawable {
     @Override
     public void draw() {}
