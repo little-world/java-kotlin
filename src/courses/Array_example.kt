@@ -57,7 +57,7 @@ a List with values
 */
 fun array_list2() {
 val list = Arrays.asList(1, 2, 3, 4)
-    
+
 for (x in list) {
     println(x)
 }
