@@ -6,32 +6,33 @@ class Variables {
         val y: Int
         y = x + 3
         println(y)
-        // declare x and y as an int
+        /// declare x and y as an int
         // plus and print
-    }
+    } //
 
     fun constant() {
         val x = 3
         val y: Int
         y = x + 3
-        // declares x as a constant
-    }
+        /// declares x as a constant
+    } //
 
     fun types() {
         val l: Long = 100
         val d = 3.14
         val b = true
         val s = "hello"
-        // other primitive types
-        // Everything is a class
-    }
+        /// other primitive types
+        // String is a class
+    } //
 
     fun typecast() {
         val x = 3
         val d = x.toDouble()
         val y = d.toInt()
-        // all typecasts are explicit
-    }
+        /// int to double implicit cast
+        // double to an int explicit cast
+    } //
 
     fun operators() {
         val a = 4
@@ -42,6 +43,6 @@ class Variables {
         c = a * b // 12
         c = a / b // 1
         c = a % b // 1
-        // basic math operators
-    }
+        /// basic math operators
+    } //
 }

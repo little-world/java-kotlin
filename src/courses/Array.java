@@ -12,14 +12,16 @@ public class Array {
         seq[0] = 1;
         seq[1] = 2;
         int y = seq[0];  //1
-    }
+        /// an empty array
+    } //
 
 
     void array2() {
         int[] seq = {1,2,3,4};
         int y = seq[0];  //1
         seq[1] = 4;
-    }
+        /// an array with values
+    } //
 
     void array_loop() {
         int[] seq = {1,2,3,4};
@@ -29,10 +31,10 @@ public class Array {
         }
 
         for (int x: seq) {
-            System.out.println(x);
+            System.out.print(x);
         }
-        // 1234
-    }
+        /// print: 1234
+    } //
 
     void array_list() {
         List<Integer> list = new ArrayList<>();
@@ -40,7 +42,8 @@ public class Array {
         list.add(2);
 
         int y = list.get(0); //1
-    }
+        /// an empty List
+    } //
 
 
     void array_list2() {
@@ -49,6 +52,6 @@ public class Array {
         for (int x: list) {
             System.out.println(x);
         }
-
-    }
+        /// a List with values
+    } //
 }

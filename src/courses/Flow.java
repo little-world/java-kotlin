@@ -3,11 +3,12 @@ package courses;
 class Flow {
 
     int x = 3;
+
     void if_example() {
         if (x < 3)
             System.out.println("small");
-        // if x is smaller then 3 print 'small'
-    }
+        /// if x is smaller then 3 print 'small'
+    } //
 
     void if_else() {
         String size = "";
@@ -17,7 +18,9 @@ class Flow {
             size = "big";
 
         String y = x < 3 ? "small" : "big";
-    }
+        /// if x is smaller then 3 print 'small'
+        // else print 'big'
+    } //
 
 
     void switch_example() {
@@ -33,22 +36,22 @@ class Flow {
             default:
                 name = "?";
         }
-        // a jump table
-    }
+        /// a jump table
+    } //
 
     void while_loop() {
         int x = 0;
         while (x < 3) {
-            System.out.println(x);
+            System.out.print(x);
             x++;
         }
-        // prints 0, 1, 2
-    }
+        /// prints 012
+    } //
 
     void for_loop() {
         for (int x = 0; x < 3; x++) {
-            System.out.println(x);
+            System.out.print(x);
         }
-        // prints 0, 1, 2
-    }
+        /// prints 012
+    } //
 }
