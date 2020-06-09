@@ -78,18 +78,16 @@ class Classes {
         /// Shape is abstract
     } //
 
-    internal interface Drawable {
-        fun draw()
-    }
 
     fun interface_example() {
+        internal interface Drawable {
+            fun draw()
+        }
+
         class Oval : Drawable {
             override fun draw() {}
         }
         /// implements an interface
     } //
 
-    companion object {
-        fun doe() {}
-    }
 }

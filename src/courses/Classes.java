@@ -86,11 +86,11 @@ public class Classes{
         /// Shape is abstract
     } //
 
-    interface Drawable {
-        void draw();
-    }
 
     void interface_example() {
+        interface Drawable {
+            void draw();
+        }
         class Oval implements Drawable {
             @Override
             public void draw() {}
