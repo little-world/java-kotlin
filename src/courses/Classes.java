@@ -38,7 +38,7 @@ A constructor in a init function
 */
 void constructor( ){
 class Point {
-    int x, y;
+    private int x, y;
     Point(int x, int y) {
         this.x = x;
         this.y = y;
