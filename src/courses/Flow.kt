@@ -56,7 +56,7 @@ prints 012
 */
 fun for_loop() {
 for (x in 0..2) {
-print(x)
+    print(x)
 }
 }
 }

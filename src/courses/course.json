@@ -1,26 +1,26 @@
 [
   {
     "title": "variables",
-    "base": "https://raw.githubusercontent.com/little-world/java-kotlin/master/src/courses/",
     "url1": "Variables.kt",
-    "url2": "Variables.java"
+    "url2": "Variables.java",
+    "quiz": "variables.json"
   },
   {
     "title": "flow control",
-    "base": "https://raw.githubusercontent.com/little-world/java-kotlin/master/src/courses/",
     "url1": "Flow.kt",
-    "url2": "Flow.java"
+    "url2": "Flow.java",
+    "quiz": "flow.json"
   },
   {
     "title": "arrays",
-    "base": "https://raw.githubusercontent.com/little-world/java-kotlin/master/src/courses/",
     "url1": "Array_example.kt",
-    "url2": "Array.java"
+    "url2": "Array.java",
+    "quiz": "array.json"
   },
   {
     "title": "classes",
-    "base": "https://raw.githubusercontent.com/little-world/java-kotlin/master/src/courses/",
     "url1": "Classes.kt",
-    "url2": "Classes.java"
+    "url2": "Classes.java",
+    "quiz": "classes.json"
   }
 ]

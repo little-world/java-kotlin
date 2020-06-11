@@ -1,0 +1,27 @@
+
+[
+  {
+    "id": 1,
+    "type": "single",
+    "text": "What is printed?",
+    "code": "for (x in 0..2) {\n    print(x)\n}",
+    "answers": [
+      {
+        "id": 1,
+        "text": "123",
+        "valid": false
+      },
+      {
+        "id": 2,
+        "text": "0123",
+        "valid": false
+      },
+      {
+        "id": 3,
+        "text": "012",
+        "valid": false
+      }
+    ]
+  }
+
+]

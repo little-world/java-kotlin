@@ -1,0 +1,27 @@
+
+[
+  {
+    "id": 1,
+    "type": "single",
+    "text": "What is printed?",
+    "code": "class Point {}\n}\n\nval p = new Point()",
+    "answers": [
+      {
+        "id": 1,
+        "text": "val should be var",
+        "valid": true
+      },
+      {
+        "id": 2,
+        "text": "new is not valid",
+        "valid": false
+      },
+      {
+        "id": 3,
+        "text": "val p: Point - type is needee",
+        "valid": false
+      }
+    ]
+  }
+
+]

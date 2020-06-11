@@ -1,0 +1,27 @@
+
+[
+  {
+    "id": 1,
+    "type": "single",
+    "text": "What is printed?",
+    "code": " if (x < 3)\n    println(\"small\")\n}",
+    "answers": [
+      {
+        "id": 1,
+        "text": "small",
+        "valid": true
+      },
+      {
+        "id": 2,
+        "text": "nothing",
+        "valid": false
+      },
+      {
+        "id": 3,
+        "text": "x < 3",
+        "valid": false
+      }
+    ]
+  }
+
+]
