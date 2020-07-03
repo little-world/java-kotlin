@@ -1,6 +1,7 @@
 package courses
 
 class Variables {
+    
 /* variables
 declare x and y as an int
 plus and print
