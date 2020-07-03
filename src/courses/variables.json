@@ -29,56 +29,27 @@
   },
   {
     "id": 2,
-    "type": "multi",
-    "text": "that the question",
-    "code": "hello, world",
-    "answers": [
-      {
-        "id": 1,
-        "text": "first answer",
-        "valid": true
-      },
-      {
-        "id": 2,
-        "text": "second answer",
-        "valid": false
-      },
-      {
-        "id": 3,
-        "text": "third answer",
-        "valid": false
-      },
-      {
-        "id": 4,
-        "text": "fourth answer",
-        "valid": false
-      }
-    ]
-  },
-  {
-    "id": 3,
     "type": "drag",
     "text": "declare an integer x with the value 3",
     "code": "var x = 3",
     "answers": []
   },
-
   {
-    "id": 4,
+    "id": 3,
     "type": "drag",
     "text": "declare a long y with the value 3",
     "code": "var y : Long = 3",
     "answers": []
   },
   {
-    "id": 5,
+    "id": 4,
     "type": "edit",
     "text": "Declare a constant ",
     "code": "$val x = 3",
     "answers": []
   },
   {
-    "id": 6,
+    "id": 5,
     "type": "single",
     "text": "What is the result?",
     "code": "  val x = 3; val y = 0\n  y = x * x\n  println(y)",
