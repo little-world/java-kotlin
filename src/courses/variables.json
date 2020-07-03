@@ -2,17 +2,27 @@
   {
     "id": 1,
     "type": "single",
-    "text": "that the next question",
-    "code": "hello, world",
+    "text": "How to declare a constant",
+    "code": "",
     "answers": [
       {
         "id": 1,
-        "text": "first answer",
-        "valid": true
+        "text": "const x = 3",
+        "valid": false
       },
       {
         "id": 2,
-        "text": "second answer",
+        "text": "final x = 3",
+        "valid": false
+      },
+      {
+        "id": 3,
+        "text": "val x = 3",
+        "valid": true
+      },
+      {
+        "id": 4,
+        "text": "final var x = 3",
         "valid": false
       }
     ]
@@ -48,23 +58,51 @@
   {
     "id": 3,
     "type": "drag",
-    "text": "that the question",
-    "code": "hello, $world",
-    "answers": [{
-      "id": 1,
-      "text": "first answer",
-      "valid": true
-    }]
+    "text": "declare an integer x with the value 3",
+    "code": "var x = 3",
+    "answers": []
   },
+
   {
     "id": 4,
+    "type": "drag",
+    "text": "declare a long y with the value 3",
+    "code": "var y : Long = 3",
+    "answers": []
+  },
+  {
+    "id": 5,
     "type": "edit",
-    "text": "that the question",
-    "code": "hello, $world",
-    "answers": [{
-      "id": 1,
-      "text": "first answer",
-      "valid": true
-    }]
+    "text": "Declare a constant ",
+    "code": "$val x = 3",
+    "answers": []
+  },
+  {
+    "id": 6,
+    "type": "single",
+    "text": "What is the result?",
+    "code": "  val x = 3; val y = 0\n  y = x * x\n  println(y)",
+    "answers": [
+      {
+        "id": 1,
+        "text": "9",
+        "valid": false
+      },
+      {
+        "id": 2,
+        "text": "3",
+        "valid": false
+      },
+      {
+        "id": 3,
+        "text": "0",
+        "valid": false
+      },
+      {
+        "id": 4,
+        "text": "does not compile",
+        "valid": true
+      }
+    ]
   }
 ]

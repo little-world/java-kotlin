@@ -22,6 +22,98 @@
         "valid": false
       }
     ]
+  },
+  {
+    "id": 2,
+    "type": "single",
+    "text": "What is the value of y?",
+    "code": "val x = 1\nvar y = when (x) {\n  1, 2 -> \"one or two\"\n  3 -> \"three\"\n  else -> \"zero\"\n}",
+    "answers": [
+      {
+        "id": 1,
+        "text": "one",
+        "valid": false
+      },
+      {
+        "id": 2,
+        "text": "two",
+        "valid": false
+      },
+      {
+        "id": 3,
+        "text": "one or two",
+        "valid": true
+      },
+      {
+        "id": 4,
+        "text": "zero",
+        "valid": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "multi",
+    "text": "What is printed?",
+    "code": "for (x in 0..2) {\n  print(x)\n}",
+    "answers": [
+      {
+        "id": 1,
+        "text": "0",
+        "valid": true
+      },
+      {
+        "id": 2,
+        "text": "1",
+        "valid": true
+      },
+      {
+        "id": 3,
+        "text": "2",
+        "valid": true
+      },
+      {
+        "id": 4,
+        "text": "3",
+        "valid": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "single",
+    "text": "What is the value of y?",
+    "code": "val x = 2\nvar y = when (x) {\n  1, 3 -> \"go\"\n  2 -> \"no go\"\n  else -> \"stop\"\n}",
+    "answers": [
+      {
+        "id": 1,
+        "text": "go",
+        "valid": false
+      },
+      {
+        "id": 2,
+        "text": "no go",
+        "valid": false
+      },
+      {
+        "id": 3,
+        "text": "stop",
+        "valid": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "drag",
+    "text": "write a for loop",
+    "code": "for (x in 0 .. 2) print(x)",
+    "answers": []
+  },
+  {
+    "id": 6,
+    "type": "drag",
+    "text": "write an if statement",
+    "code": "if ( x < 3 ) println(\"small\") ",
+    "answers": []
   }
-
 ]

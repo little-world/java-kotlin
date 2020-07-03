@@ -16,27 +16,22 @@ if x is smaller then 3 print 'small'
 else print 'big'
 */
 fun if_else() {
-var size = ""
-size = if (x < 3)
-    "small"
-  else
-    "big"
-
-val y = if (x < 3)
-    "small"
-  else
-    "big"
+    val x = 3
+    var size = if (x < 3)
+        "small"
+    else
+        "big"
 }
 
 /* switch
 a jump table
 */
 fun switch_example() {
-var name = ""
-name = when (x) {
+val x = 1
+var y = when (x) {
     1, 2 -> "one or two"
     3 -> "three"
-    else -> "?"
+    else -> "zero"
 }
 }
 

@@ -18,10 +18,144 @@
       },
       {
         "id": 3,
-        "text": "val p: Point - type is needee",
+        "text": "val p: Point - type is needed",
         "valid": false
       }
     ]
+  },
+  {
+    "id": 2,
+    "type": "single",
+    "text": "What is the keyword for a method",
+    "code": "",
+    "answers": [
+      {
+        "id": 1,
+        "text": "function",
+        "valid": false
+      },
+      {
+        "id": 2,
+        "text": "void",
+        "valid": false
+      },
+      {
+        "id": 3,
+        "text": "fun",
+        "valid": true
+      },
+      {
+        "id": 4,
+        "text": "func",
+        "valid": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "single",
+    "text": "When is the modifier 'public' used",
+    "code": "",
+    "answers": [
+      {
+        "id": 1,
+        "text": "on classes and methods",
+        "valid": false
+      },
+      {
+        "id": 2,
+        "text": "only on classes with inheritance",
+        "valid": false
+      },
+      {
+        "id": 3,
+        "text": "only on classes with overriding",
+        "valid": false
+      },
+      {
+        "id": 4,
+        "text": "never",
+        "valid": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "single",
+    "text": "When is the modifier 'public' used",
+    "code": "",
+    "answers": [
+      {
+        "id": 1,
+        "text": "on classes and methods",
+        "valid": false
+      },
+      {
+        "id": 2,
+        "text": "only on classes with inheritance",
+        "valid": false
+      },
+      {
+        "id": 3,
+        "text": "only on classes with overriding",
+        "valid": false
+      },
+      {
+        "id": 4,
+        "text": "never",
+        "valid": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "single",
+    "text": "When is the modifier 'open' needed",
+    "code": "",
+    "answers": [
+      {
+        "id": 1,
+        "text": "on classes and methods",
+        "valid": false
+      },
+      {
+        "id": 2,
+        "text": "only on classes with inheritance",
+        "valid": false
+      },
+      {
+        "id": 3,
+        "text": "only on classes with overriding",
+        "valid": false
+      },
+      {
+        "id": 4,
+        "text": "never",
+        "valid": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "single",
+    "text": "Does Kotlin has interfaces",
+    "code": "",
+    "answers": [
+      {
+        "id": 1,
+        "text": "no only protocols",
+        "valid": false
+      },
+      {
+        "id": 2,
+        "text": "no only abstract classes",
+        "valid": false
+      },
+      {
+        "id": 3,
+        "text": "yes, as in Java",
+        "valid": true
+      }
+    ]
   }
-
 ]

@@ -2,26 +2,144 @@
 [
   {
     "id": 1,
-    "type": "single",
+    "type": "multi",
     "text": "What is printed?",
-    "code": "for (x in 0..2) {\n    print(x)\n}",
+    "code": "val seq = arrayOf(1, 2, 3)\nfor (x in seq) {\n  print(x)\n}",
     "answers": [
       {
         "id": 1,
-        "text": "123",
+        "text": "0",
         "valid": false
+      },    {
+        "id": 2,
+        "text": "1",
+        "valid": true
       },
       {
+        "id": 3,
+        "text": "2",
+        "valid": true
+      },
+      {
+        "id": 4,
+        "text": "3",
+        "valid": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "multi",
+    "text": "Declared an array of integers",
+    "code": "",
+    "answers": [
+      {
+        "id": 1,
+        "text": "val seq = IntArray(2)",
+        "valid": true
+      },    {
         "id": 2,
-        "text": "0123",
+        "text": "val seq = arrayOf(1,2)",
+        "valid": true
+      },
+      {
+        "id": 3,
+        "text": "val seq = intArrayOf(1,2)",
+        "valid": true
+      },
+      {
+        "id": 4,
+        "text": "val seq = [1, 2, 3]",
+        "valid": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "single",
+    "text": "What is printed?",
+    "code": "val seq = arrayOf(1, 2, 3)\nprint(seq[1])\n}",
+    "answers": [
+      {
+        "id": 1,
+        "text": "0",
+        "valid": false
+      },    {
+        "id": 2,
+        "text": "1",
         "valid": false
       },
       {
         "id": 3,
-        "text": "012",
+        "text": "2",
+        "valid": true
+      },
+      {
+        "id": 4,
+        "text": "3",
+        "valid": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "multi",
+    "text": "Declared a Java ArrayList",
+    "code": "",
+    "answers": [
+      {
+        "id": 1,
+        "text": "val seq = arrayListOf(1,2)",
+        "valid": true
+      },    {
+        "id": 2,
+        "text": "val seq = [1, 2, 3]",
+        "valid": false
+      },
+      {
+        "id": 3,
+        "text": "val seq = ArrayList()",
+        "valid": true
+      },
+      {
+        "id": 4,
+        "text": "val seq = List()",
+        "valid": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "drag",
+    "text": "declare an array",
+    "code": "val seq = arrayOf ( 1 , 2 )",
+    "answers": []
+  },
+  {
+    "id": 6,
+    "type": "multi",
+    "text": "Get the second item from the array ",
+    "code": "val seq = arrayOf(1, 2, 3)",
+    "answers": [
+      {
+        "id": 1,
+        "text": "seq[1]",
+        "valid": true
+      },    {
+        "id": 2,
+        "text": "seq.get(i)",
+        "valid": true
+      },
+      {
+        "id": 3,
+        "text": "seq.pop(1)",
+        "valid": false
+      },
+      {
+        "id": 4,
+        "text": "seq.second()",
         "valid": false
       }
     ]
   }
-
 ]

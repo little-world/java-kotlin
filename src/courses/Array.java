@@ -27,9 +27,7 @@ an array with values
 */
 void array2() {
 int[] seq = {1,2,3};
-
 int y = seq[0];  //1
-
 seq[1] = 4;
 }
 
@@ -53,10 +51,8 @@ an empty Lists
 */
 void array_list() {
 List<Integer> list = new ArrayList<>();
-
 list.add(1);
 list.add(2);
-
 int y = list.get(0); //1
 }
 

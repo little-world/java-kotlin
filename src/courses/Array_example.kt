@@ -1,6 +1,7 @@
 package courses
 
 import java.util.*
+import kotlin.Array
 
 class Array {
 /* array
@@ -19,10 +20,8 @@ val y = seq[0] //1
 an array with values
 */
 fun array2() {
-val seq = intArrayOf(1, 2, 3)
-
+val seq = arrayOf(1, 2, 3)
 val y = seq[0] //1
-
 seq[1] = 4
 }
 
@@ -30,7 +29,9 @@ seq[1] = 4
 print 1234
 */
 fun array_loop() {
-val seq = intArrayOf(1, 2, 3)
+val seq = arrayOf(1, 2, 3)
+
+seq[2] = 5
 
 for (i in seq.indices) {
     print(seq[i])
@@ -45,10 +46,8 @@ an empty Lists
 */
 fun array_list() {
 val list: MutableList<Int> = ArrayList()
-
 list.add(1)
 list += 2
-
 val y = list[0] //1
 }
 

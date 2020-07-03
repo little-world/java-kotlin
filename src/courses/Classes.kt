@@ -9,14 +9,12 @@ A class with fields and method
 */
 fun point_class() {
 class Point {
-    var x = 0
-    var y = 0
+    var x = 0; var y = 0
     fun move(a: Int, b: Int) {
         x += a
         y += b
     }
 }
-
 val p = Point()
 p.move(3, 3)
 }

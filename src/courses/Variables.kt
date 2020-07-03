@@ -8,6 +8,8 @@ plus and print
 fun variables() {
 val x = 3
 val y: Int
+
+
 y = x + 3
 println(y)
 }
@@ -26,6 +28,7 @@ other primitive types
 String is a class
 */
 fun types() {
+var x = 3
 val l: Long = 100
 val d = 3.14
 val b = true
