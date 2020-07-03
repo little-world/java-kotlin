@@ -13,7 +13,7 @@ println(y)
 }
 
 /* constants
-declares x as a constant
+declares x and y as a constant
 */
 fun constant() {
 val x = 3
@@ -22,8 +22,7 @@ y = x + 3
 }
 
 /* types
-other primitive types
-String is a class
+All numbers are classes
 */
 fun types() {
 val x = 3
@@ -34,8 +33,7 @@ val s = "hello"
 }
 
 /* type cast
-int to double implicit cast
-double to an int explicit cast
+all cast are expicit
 */
 fun typecast() {
 val x = 3
