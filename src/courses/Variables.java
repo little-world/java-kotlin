@@ -12,7 +12,10 @@ y = x + 3;
 System.out.println(y);
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 /* constants
 declares x as a constant
 */
