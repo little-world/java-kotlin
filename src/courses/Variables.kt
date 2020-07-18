@@ -7,8 +7,8 @@ declare x and y as an int
 plus and print
 */
 fun variables() {
-val x = 3
-val y: Int
+var x = 3
+var y: Int
 y = x + 3
 println(y)
 }
@@ -26,28 +26,29 @@ y = x + 3
 All numbers are classes
 */
 fun types() {
-val x = 3
-val l: Long = 100
-val d = 3.14
-val b = true
-val s = "hello"
+var x = 3
+var l: Long = 100
+var d = 3.14
+var b = true
+var s = "hello"
 }
 
 /* type cast
 all cast are expicit
 */
 fun typecast() {
-val x = 3
-val d = x.toDouble()
-val y = d.toInt()
+var x = 3
+var d = x.toDouble()
+var y = d.toInt()
 }
+
 
 /* operators
 basic math operators
 */
 fun operators() {
-val a = 4
-val b = 3
+var a = 4
+var b = 3
 var c: Int
 c = a + b // 7
 c = a - b // 1

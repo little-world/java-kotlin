@@ -1,0 +1,23 @@
+[
+  {
+    "title": "variables",
+    "text": "int x = 3, y;\ny = x + 3;\nSystem.out.println(y);",
+    "comment": "declare x and y as an int\nplus and print"
+  }, {
+    "title": "constants",
+    "text": "final int x = 3;\nfinal int y;\ny = x + 3;",
+    "comment": "declares x as a constant"
+  }, {
+    "title": "types",
+    "text": "int x = 3;\nlong l = 100;\ndouble d = 3.14;\nboolean b = true;\nString s = \"hello\";",
+    "comment": "other primitive types\nString is a class"
+  }, {
+    "title": "type cast",
+    "text": "int x = 3;\ndouble d = x;\nint y = (int) d;",
+    "comment": "int to double implicit cast\ndouble to an int explicit cast"
+  }, {
+    "title": "operators",
+    "text": "int a = 4, b = 3, c;\nc = a + b;   // 7\nc = a - b;   // 1\nc = a * b;   // 12\nc = a / b;   // 1\nc = a % b;   // 1",
+    "comment": "basic math operators"
+  }
+]

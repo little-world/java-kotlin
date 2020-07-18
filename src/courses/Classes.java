@@ -3,7 +3,7 @@ package courses;
 
 import java.awt.*;
 
-public class Classes{
+public class Classes {
 
 /* class
 A class with fields and method

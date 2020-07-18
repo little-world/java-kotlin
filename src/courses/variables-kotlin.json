@@ -1,0 +1,23 @@
+[
+  {
+    "title": "variables",
+    "text": "var x = 3\nvar y: Int\ny = x + 3\nprintln(y)",
+    "comment": "declare x and y as an int\nplus and print"
+  }, {
+  "title": "constants",
+  "text": "val x = 3\nval y: Int\ny = x + 3",
+  "comment": "declares x as a constant"
+}, {
+  "title": "types",
+  "text": "var x = 3\nvar l: Long = 100\nvar d = 3.14\nvar b = true\nvar s = \"hello\"",
+  "comment": "All numbers are classes"
+}, {
+  "title": "type cast",
+  "text": "var x = 3\nvar d = x.toDouble()\nvar y = d.toInt()",
+  "comment": "all cast are expicit"
+}, {
+  "title": "operators",
+  "text": "var a = 4\nvar b = 3\nvar c: Int\nc = a + b // 7\nc = a - b // 1\nc = a * b // 12\nc = a / b // 1\nc = a % b // 1",
+  "comment": "basic math operators"
+}
+]
